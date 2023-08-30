@@ -1,17 +1,73 @@
-nav ul {
-    list-style-type: none;
-  }
-  
-  nav ul li {
-    display: inline-block;
-  }
-  nav ul li a {
-    text-decoration: none;
-    color: red;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  
+
 body {
   color: rgb(252, 252, 244);
   background-color: rgb(5, 5, 5);
+  text-align: center;
+}
+
+
+header {
+  background-image: url('imagens/capa\ vingadores.jpg');
+  width: auto;
+  height: 500px;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin: 0;
+}
+.banner h1{
+  background-color: rgba(165, 42, 42, 0.644);
+  padding: 0% 150px;
+  text
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: red;
+}
+
+
+p {
+  font-family: 'Inter Tight', sans-serif;
+  padding: 100px, 300px, 100px, 300px;
+  border: 1px solid white;
+
+}
+
+
+img {
+  display: inline-flex;
+  border: 1px solid white;
+  margin: 30px 0;
+}
+
+section {
+  margin: 30px 0;
+}
+
+h3 {
+  margin: 30px 0;
+}
+
+h1 {
+  margin: 30px 0;
+}
+
+p {
+  margin: 30px 0;
 }
