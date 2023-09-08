@@ -5,45 +5,64 @@
 }
 
 body {
-  
+
   color: rgb(252, 252, 244);
   background-color: rgb(0, 0, 0);
   text-align: right;
- 
+
 }
 
 header {
-  
+
   color: #fff;
   text-align: center;
-  padding: 20px 0;
-  
-  
+  padding: 0px;
 
 }
 
 
 main {
-  
 
-padding: 20px;
+
+  padding: 20px;
 }
 
 
 nav ul {
   list-style-type: none;
+  background-color: rgba(0, 0, 0, 0.856);
+  padding: 20px;
+  text-align: center;
+  font-size: medium;
+
+
+
+
+
+
 
 }
 
 nav ul li {
   display: inline-block;
+  margin-right: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+
+
+
 
 }
 
 nav ul li a {
   text-decoration: none;
+  color: #fff;
+  font-size: medium;
+
+
 
 }
+
 
 .banner {
   background-image: url('imagens/vingadores-ultimato-teaser-instagram-1210x540.webp');
@@ -53,41 +72,41 @@ nav ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  margin: 0;
-  text-align: center;
   position: relative;
-}
-.banner::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(23, 9, 104, 0.514); 
 
 
 }
-.banner h1{
-  margin-bottom: 10px;
-  font-family: sans-serif;
-  background-color: rgb(0, 0, 0);
-  padding: 10px;
+
+
+
+
+.banner h1 {
+  font-size: 100px;
+  margin: 0%;
   color: rgb(234, 231, 240);
+  opacity: 1px;
+  text-align: center;
+  margin-top: 183px;
+  text-shadow: 0.1em 0.1em 0.05em #070707;
 
 
-  
+
+
+
+
+
+
 }
 
-.banner p { 
+.banner p {
   font-size: 18px;
-  padding: 100px 100px; 
+  padding: 100px 100px;
   font-size: medium;
-  text-align:center;
- 
+  text-align: justify;
+  opacity: 0, 5;
 
-  
+
+
 }
 
 section {
@@ -98,56 +117,58 @@ section {
 
 }
 
-.secao-titulo{
+.secao-titulo {
   margin-bottom: 10px;
   text-align: center;
+  margin-top: 50px;
+
 }
 
 .secao-link {
-  display: block; 
-  text-align: center; 
-  margin: 20px auto; 
-  padding: 10px 20px; 
-  background-color: #d61313; 
-  color: #fff; 
-  text-decoration: none; 
-  border-radius: 5px; 
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #d61313;
+  color: #fff;
+  border-radius: 5px;
   width: 200px;
   font-size: medium;
 
-  }
-  
-    .secao-img {
-      margin-right: 20px;
-      display: block;
-      margin: auto;
-      border: 5px solid rgba(23, 9, 104, 0.514);
-      width: 300px;
-      text-align: end;
-      float: inline-end;
-      margin-left: 100px;
-      
-    }
-  
+}
+
+.secao-img {
+  margin-right: 20px;
+  display: block;
+  margin: auto;
+  border: 5px solid rgb(245, 244, 250);
+  width: 300px;
+  text-align: end;
+  float: inline-end;
+  margin-left: 100px;
+  margin-top: 50px;
+
+}
 
 
-.secao-subtitulo{
+
+.secao-sinopse {
   margin-top: 50px;
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
   font-size: large;
   text-align: center;
- 
+
 }
+
 .secao-descricao {
-  margin-top:auto;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 10px;
   font-size: medium;
-  text-align: center;
+  text-align: justify;
+  border: solid white 1px;
+  padding: 20px;
+
+
+
 }
-
-
-
