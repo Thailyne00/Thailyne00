@@ -46,7 +46,8 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 40px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: sans-serif;
+  font-weight: 14px;
   font-size: medium;
 
 
