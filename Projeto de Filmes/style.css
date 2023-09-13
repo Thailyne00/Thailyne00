@@ -75,8 +75,8 @@ nav ul li a {
   padding: 20px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
   position: relative;
+  
 
 
 }
@@ -125,6 +125,8 @@ section {
   margin-bottom: 10px;
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 20px;
+  display: block;
 
 }
 
@@ -147,18 +149,19 @@ section {
   margin: auto;
   border: 5px solid rgb(245, 244, 250);
   width: 300px;
-  text-align: end;
+  text-align: center;
   float: inline-end;
   margin-left: 100px;
   margin-top: 50px;
+  margin: auto;
 
 }
 
 
 
 .secao-sinopse {
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 35px;
+  margin-bottom: 10px;
   margin-left: 20px;
   margin-right: 20px;
   font-size: large;
